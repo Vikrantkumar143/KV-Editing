@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kulver &amp; Preeti — Premium Photo Editing &amp; Website Development Studio</title>
+  <meta name="description" content="Kulver &amp; Preeti is a premium creative studio delivering professional photo editing, retouching, wedding &amp; portrait editing, background removal and modern website development in HTML, WordPress, Elementor, Wix and Shopify." />
+  <meta name="keywords" content="photo editing services, professional photo retouching, wedding photo editing, portrait retouching, birthday photo editing, image enhancement, background removal, photo manipulation, website development, WordPress development, Elementor, Wix, Shopify, responsive website design" />
+  <meta name="author" content="Kulver &amp; Preeti" />
+  <link rel="canonical" href="https://vikrantkumar143.github.io/KV-Editing/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Kulver &amp; Preeti — Premium Photo Editing &amp; Website Development" />
+  <meta property="og:description" content="We turn moments into masterpieces. Professional photo editing and modern website solutions crafted for photographers, brands and businesses." />
+  <meta property="og:url" content="https://vikrantkumar143.github.io/KV-Editing/" />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1200&q=80" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Kulver &amp; Preeti — Premium Photo Editing &amp; Website Development" />
+  <meta name="twitter:description" content="We transform ordinary photos into extraordinary visuals and build modern digital experiences." />
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1200&q=80" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===================== NAVBAR ===================== -->
+  <header class="kv-nav" id="kvNav">
+    <div class="kv-container kv-nav__inner">
+      <a href="./" class="kv-logo" aria-label="Kulver and Preeti home">
+        <svg class="kv-logo__mark" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <circle cx="24" cy="24" r="21" stroke="#c9a227" stroke-width="1.4" />
+          <polygon class="kv-aperture" points="24,9 37,16.5 37,31.5 24,39 11,31.5 11,16.5" stroke="#c9a227" stroke-width="1" fill="none" opacity="0.4" />
+          <text x="24" y="29.5" text-anchor="middle" font-family="'Playfair Display', serif" font-size="15" font-weight="600" fill="#f5f5f5" letter-spacing="0.5">KV</text>
+        </svg>
+        <span class="kv-logo__text">
+          <span class="kv-logo__name">K &amp; V</span>
+          <span class="kv-logo__sub">Creative Studio</span>
+        </span>
+      </a>
+
+      <nav aria-label="Primary">
+        <ul class="kv-nav__links">
+          <li><a href="./" class="kv-nav__link is-active">Home</a></li>
+          <li><a href="about" class="kv-nav__link">About</a></li>
+          <li><a href="projects" class="kv-nav__link">Projects</a></li>
+          <li><a href="contact" class="kv-nav__link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="kv-nav__actions">
+        <a href="contact" class="kv-btn kv-btn--gold kv-btn--sm" data-magnetic>Start a Project <i class="bi bi-arrow-right"></i></a>
+        <button class="kv-burger" id="kvBurger" aria-label="Open menu" aria-controls="kvMobileMenu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===================== MOBILE MENU ===================== -->
+  <div class="kv-mobile-menu" id="kvMobileMenu" role="dialog" aria-modal="true" aria-hidden="true" aria-label="Mobile navigation">
+    <span class="kv-mobile-menu__glow"></span>
+    <button class="kv-mobile-menu__close" aria-label="Close menu"><i class="bi bi-x-lg"></i></button>
+    <ul class="kv-mobile-menu__list">
+      <li><a href="./" class="kv-mobile-menu__link">Home</a></li>
+      <li><a href="about" class="kv-mobile-menu__link">About</a></li>
+      <li><a href="projects" class="kv-mobile-menu__link">Projects</a></li>
+      <li><a href="contact" class="kv-mobile-menu__link">Contact</a></li>
+    </ul>
+    <div class="kv-mobile-menu__meta">
+      <p><a href="mailto:kvikrant543@gmail.com">kvikrant543@gmail.com</a></p>
+      <p><a href="contact">Start a project →</a></p>
+    </div>
+  </div>
+
+  <main>
+    <!-- ===================== HERO ===================== -->
+    <section class="kv-hero" id="top">
+      <div class="kv-hero__bg" data-parallax-y="0.4"></div>
+      <div class="kv-hero__grid-lines"></div>
+      <div class="kv-container kv-hero__inner">
+        <div class="kv-hero__content">
+          <span class="kv-eyebrow" data-reveal>Photo Editing &amp; Web Development</span>
+          <h1 class="kv-hero__title" data-reveal data-reveal-delay="1">
+            <span>We turn moments</span>
+            <span>into <span class="kv-gold-text">masterpieces.</span></span>
+          </h1>
+          <p class="kv-hero__lead" data-reveal data-reveal-delay="2">
+            Professional photo editing and modern website solutions, crafted to make your
+            visuals stand out and your brand feel unforgettable.
+          </p>
+          <div class="kv-hero__cta" data-reveal data-reveal-delay="3">
+            <a href="projects" class="kv-btn kv-btn--gold" data-magnetic>Explore Our Work <i class="bi bi-arrow-right"></i></a>
+            <a href="contact" class="kv-btn kv-btn--ghost" data-magnetic>Start a Project</a>
+          </div>
+          <div class="kv-hero__stats" data-reveal data-reveal-delay="4">
+            <div>
+              <div class="kv-hero__stat-num"><span data-count="5" data-suffix="+">0</span></div>
+              <div class="kv-hero__stat-label">Yrs Photo Editing</div>
+            </div>
+            <div>
+              <div class="kv-hero__stat-num"><span data-count="3" data-suffix="+">0</span></div>
+              <div class="kv-hero__stat-label">Yrs Web Dev</div>
+            </div>
+            <div>
+              <div class="kv-hero__stat-num"><span data-count="900" data-suffix="+">0</span></div>
+              <div class="kv-hero__stat-label">Projects Delivered</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="kv-hero__visual" data-reveal="scale" data-reveal-delay="2">
+          <div class="kv-float kv-float--1 kv-anim-float" data-parallax="26">
+            <img src="https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?auto=format&fit=crop&w=400&q=80" alt="Wedding couple photography sample" loading="lazy" />
+            <span class="kv-float__tag">Wedding</span>
+          </div>
+          <div class="kv-float kv-float--2 kv-anim-float--slow" data-parallax="18">
+            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=300&q=80" alt="Portrait retouching sample" loading="lazy" />
+            <span class="kv-float__tag">Portrait</span>
+          </div>
+
+          <div class="kv-compare" data-parallax="8" role="group" aria-label="Before and after photo editing comparison">
+            <img class="kv-compare__img kv-compare__fx-before" src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=80" alt="Portrait before professional editing" loading="lazy" />
+            <img class="kv-compare__img kv-compare__after" src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=85" alt="Portrait after professional editing and retouching" loading="lazy" />
+            <span class="kv-compare__label kv-compare__label--before">Before</span>
+            <span class="kv-compare__label kv-compare__label--after">After</span>
+            <span class="kv-compare__divider"></span>
+            <button class="kv-compare__handle" aria-label="Drag to compare before and after"><i class="bi bi-arrows-expand" style="transform:rotate(90deg)"></i></button>
+            <input class="kv-compare__range" type="range" min="0" max="100" value="50" aria-label="Before and after slider position" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== MARQUEE ===================== -->
+    <div class="kv-marquee" aria-hidden="true">
+      <div class="kv-marquee__track">
+        <span class="kv-marquee__item">Retouching <i class="bi bi-diamond-fill"></i></span>
+        <span class="kv-marquee__item">Wedding Editing <i class="bi bi-diamond-fill"></i></span>
+        <span class="kv-marquee__item">Background Removal <i class="bi bi-diamond-fill"></i></span>
+        <span class="kv-marquee__item">WordPress <i class="bi bi-diamond-fill"></i></span>
+        <span class="kv-marquee__item">Color Grading <i class="bi bi-diamond-fill"></i></span>
+        <span class="kv-marquee__item">Shopify Stores <i class="bi bi-diamond-fill"></i></span>
+        <span class="kv-marquee__item">Photo Restoration <i class="bi bi-diamond-fill"></i></span>
+        <span class="kv-marquee__item">Landing Pages <i class="bi bi-diamond-fill"></i></span>
+        <!-- duplicate for seamless loop -->
+        <span class="kv-marquee__item">Retouching <i class="bi bi-diamond-fill"></i></span>
+        <span class="kv-marquee__item">Wedding Editing <i class="bi bi-diamond-fill"></i></span>
+        <span class="kv-marquee__item">Background Removal <i class="bi bi-diamond-fill"></i></span>
+        <span class="kv-marquee__item">WordPress <i class="bi bi-diamond-fill"></i></span>
+        <span class="kv-marquee__item">Color Grading <i class="bi bi-diamond-fill"></i></span>
+        <span class="kv-marquee__item">Shopify Stores <i class="bi bi-diamond-fill"></i></span>
+        <span class="kv-marquee__item">Photo Restoration <i class="bi bi-diamond-fill"></i></span>
+        <span class="kv-marquee__item">Landing Pages <i class="bi bi-diamond-fill"></i></span>
+      </div>
+    </div>
+
+    <!-- ===================== SERVICES ===================== -->
+    <section class="kv-section" id="services">
+      <div class="kv-container">
+        <div class="kv-section-head kv-section-head--center" data-reveal>
+          <span class="kv-eyebrow">What We Create</span>
+          <h2 class="kv-heading-lg">Two crafts, one obsessive standard for detail</h2>
+          <p class="kv-lead" style="margin-inline:auto;">From flawless retouching to fully responsive websites — everything we make is
+            built to look premium and perform beautifully.</p>
+        </div>
+
+        <div class="text-center" data-reveal>
+          <div class="kv-services__tabs" role="tablist" aria-label="Service categories">
+            <button class="kv-services__tab is-active" data-tab="photo" role="tab" aria-selected="true">Photo Editing</button>
+            <button class="kv-services__tab" data-tab="web" role="tab" aria-selected="false">Web Development</button>
+          </div>
+        </div>
+
+        <!-- Photo panel -->
+        <div class="kv-services__panel is-active" data-panel="photo" role="tabpanel">
+          <div class="kv-service-grid">
+            <article class="kv-service-card" data-tilt data-reveal>
+              <span class="kv-service-card__num">01</span>
+              <div class="kv-service-card__icon"><i class="bi bi-magic"></i></div>
+              <h3>Retouching &amp; Portraits</h3>
+              <p>Natural, high-end skin retouching and portrait work that keeps every subject looking like themselves — only better.</p>
+              <ul class="kv-service-card__list">
+                <li>Skin Retouching</li><li>Portrait Retouching</li><li>Enhancement</li><li>Color Correction</li>
+              </ul>
+              <span class="kv-service-card__line"></span>
+            </article>
+
+            <article class="kv-service-card" data-tilt data-reveal data-reveal-delay="1">
+              <span class="kv-service-card__num">02</span>
+              <div class="kv-service-card__icon"><i class="bi bi-heart"></i></div>
+              <h3>Wedding &amp; Events</h3>
+              <p>Cinematic color grading and album-ready editing for weddings, birthdays and every celebration worth remembering.</p>
+              <ul class="kv-service-card__list">
+                <li>Wedding Editing</li><li>Birthday &amp; Events</li><li>Album Editing</li><li>Social Media</li>
+              </ul>
+              <span class="kv-service-card__line"></span>
+            </article>
+
+            <article class="kv-service-card" data-tilt data-reveal data-reveal-delay="2">
+              <span class="kv-service-card__num">03</span>
+              <div class="kv-service-card__icon"><i class="bi bi-scissors"></i></div>
+              <h3>Cut-outs &amp; Compositing</h3>
+              <p>Precise background removal, replacement and creative compositing for products, brands and imaginative concepts.</p>
+              <ul class="kv-service-card__list">
+                <li>Background Removal</li><li>Background Replace</li><li>Object Removal</li><li>Compositing</li>
+              </ul>
+              <span class="kv-service-card__line"></span>
+            </article>
+
+            <article class="kv-service-card" data-tilt data-reveal>
+              <span class="kv-service-card__num">04</span>
+              <div class="kv-service-card__icon"><i class="bi bi-bag"></i></div>
+              <h3>Product &amp; E-commerce</h3>
+              <p>Clean, consistent product editing that makes catalogs and storefronts look sharp, trustworthy and ready to sell.</p>
+              <ul class="kv-service-card__list">
+                <li>Product Editing</li><li>E-commerce Images</li><li>Ghost Mannequin</li><li>Batch Editing</li>
+              </ul>
+              <span class="kv-service-card__line"></span>
+            </article>
+
+            <article class="kv-service-card" data-tilt data-reveal data-reveal-delay="1">
+              <span class="kv-service-card__num">05</span>
+              <div class="kv-service-card__icon"><i class="bi bi-clock-history"></i></div>
+              <h3>Restoration</h3>
+              <p>Bringing old, damaged and faded photographs back to life with careful repair, colorization and enhancement.</p>
+              <ul class="kv-service-card__list">
+                <li>Old Photo Restoration</li><li>Colorization</li><li>Damage Repair</li><li>Enhancement</li>
+              </ul>
+              <span class="kv-service-card__line"></span>
+            </article>
+
+            <article class="kv-service-card" data-tilt data-reveal data-reveal-delay="2">
+              <span class="kv-service-card__num">06</span>
+              <div class="kv-service-card__icon"><i class="bi bi-stars"></i></div>
+              <h3>AI Enhancement</h3>
+              <p>Smart upscaling and AI-assisted enhancement that recovers detail and clarity without losing a photo's soul.</p>
+              <ul class="kv-service-card__list">
+                <li>AI Enhancement</li><li>Upscaling</li><li>Noise Reduction</li><li>Sharpening</li>
+              </ul>
+              <span class="kv-service-card__line"></span>
+            </article>
+          </div>
+        </div>
+
+        <!-- Web panel -->
+        <div class="kv-services__panel" data-panel="web" role="tabpanel">
+          <div class="kv-service-grid">
+            <article class="kv-service-card" data-tilt data-reveal>
+              <span class="kv-service-card__num">01</span>
+              <div class="kv-service-card__icon"><i class="bi bi-code-slash"></i></div>
+              <h3>Custom Front-End</h3>
+              <p>Hand-crafted websites in HTML, CSS, JavaScript and Bootstrap — fast, clean and pixel-precise.</p>
+              <ul class="kv-service-card__list">
+                <li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>Bootstrap 5</li>
+              </ul>
+              <span class="kv-service-card__line"></span>
+            </article>
+
+            <article class="kv-service-card" data-tilt data-reveal data-reveal-delay="1">
+              <span class="kv-service-card__num">02</span>
+              <div class="kv-service-card__icon"><i class="bi bi-wordpress"></i></div>
+              <h3>WordPress &amp; Elementor</h3>
+              <p>Flexible, editable WordPress sites built with Elementor so your team can update content with confidence.</p>
+              <ul class="kv-service-card__list">
+                <li>WordPress</li><li>Elementor</li><li>Custom Themes</li><li>Plugins</li>
+              </ul>
+              <span class="kv-service-card__line"></span>
+            </article>
+
+            <article class="kv-service-card" data-tilt data-reveal data-reveal-delay="2">
+              <span class="kv-service-card__num">03</span>
+              <div class="kv-service-card__icon"><i class="bi bi-cart3"></i></div>
+              <h3>Shopify &amp; Wix</h3>
+              <p>Conversion-focused online stores and quick-launch sites on Shopify and Wix, styled to match your brand.</p>
+              <ul class="kv-service-card__list">
+                <li>Shopify Stores</li><li>Wix Sites</li><li>Product Setup</li><li>Payments</li>
+              </ul>
+              <span class="kv-service-card__line"></span>
+            </article>
+
+            <article class="kv-service-card" data-tilt data-reveal>
+              <span class="kv-service-card__num">04</span>
+              <div class="kv-service-card__icon"><i class="bi bi-window-stack"></i></div>
+              <h3>Landing Pages</h3>
+              <p>High-impact landing pages engineered to capture attention and turn visitors into enquiries.</p>
+              <ul class="kv-service-card__list">
+                <li>Landing Pages</li><li>Campaigns</li><li>Lead Capture</li><li>A/B Ready</li>
+              </ul>
+              <span class="kv-service-card__line"></span>
+            </article>
+
+            <article class="kv-service-card" data-tilt data-reveal data-reveal-delay="1">
+              <span class="kv-service-card__num">05</span>
+              <div class="kv-service-card__icon"><i class="bi bi-phone"></i></div>
+              <h3>Responsive Design</h3>
+              <p>Every build is fully responsive — flawless from a 320px phone to a 4K desktop display.</p>
+              <ul class="kv-service-card__list">
+                <li>Mobile-First</li><li>Cross-Browser</li><li>Performance</li><li>Accessibility</li>
+              </ul>
+              <span class="kv-service-card__line"></span>
+            </article>
+
+            <article class="kv-service-card" data-tilt data-reveal data-reveal-delay="2">
+              <span class="kv-service-card__num">06</span>
+              <div class="kv-service-card__icon"><i class="bi bi-brush"></i></div>
+              <h3>Redesign &amp; UI/UX</h3>
+              <p>Refreshing tired websites with modern UI/UX design that feels premium and works intuitively.</p>
+              <ul class="kv-service-card__list">
+                <li>Website Redesign</li><li>UI/UX Design</li><li>Wireframes</li><li>Prototyping</li>
+              </ul>
+              <span class="kv-service-card__line"></span>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SPLIT FEATURE ===================== -->
+    <section class="kv-section kv-section--tight">
+      <div class="kv-container">
+        <div class="kv-split">
+          <article class="kv-split__col" data-reveal="left">
+            <div class="kv-split__bg">
+              <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=800&q=80" alt="Wedding photo editing example" loading="lazy" />
+            </div>
+            <div class="kv-split__content">
+              <span class="kv-split__tag">Photo Editing</span>
+              <h3>Where light, color &amp; emotion meet</h3>
+              <p>Retouching, enhancement, and cinematic grading that transform raw captures into gallery-worthy imagery.</p>
+              <div class="kv-split__chips">
+                <span>Before / After</span><span>Retouching</span><span>Wedding</span><span>Enhancement</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="kv-split__col" data-reveal="right">
+            <div class="kv-split__bg">
+              <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?auto=format&fit=crop&w=800&q=80" alt="Modern website development example" loading="lazy" />
+            </div>
+            <div class="kv-split__content">
+              <span class="kv-split__tag">Web Design &amp; Development</span>
+              <h3>Modern sites, built to convert</h3>
+              <p>Responsive websites and online stores that pair sharp visuals with smooth, dependable engineering.</p>
+              <div class="kv-split__chips">
+                <span>WordPress</span><span>Elementor</span><span>Wix</span><span>Shopify</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== EXPERIENCE ===================== -->
+    <section class="kv-section" id="experience">
+      <div class="kv-container">
+        <div class="kv-experience">
+          <div data-reveal="left">
+            <span class="kv-eyebrow">The Experience</span>
+            <h2 class="kv-heading-lg">Years of craft behind every pixel</h2>
+            <p class="kv-lead">Two disciplines, refined over years of client work — from raw photographs to fully-built, conversion-ready websites.</p>
+            <div class="kv-counter-grid mt-4">
+              <div class="kv-counter-card">
+                <div class="kv-counter-card__num"><span data-count="5">0</span><sup>+</sup></div>
+                <div class="kv-counter-card__label">Years of Photo Editing</div>
+              </div>
+              <div class="kv-counter-card">
+                <div class="kv-counter-card__num"><span data-count="3">0</span><sup>+</sup></div>
+                <div class="kv-counter-card__label">Years of Web Development</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="kv-timeline" data-reveal="right">
+            <div class="kv-timeline__item">
+              <span class="kv-timeline__dot"></span>
+              <span class="kv-timeline__year">Photo Editing — 5+ Years</span>
+              <h4>From raw files to finished art</h4>
+              <p>Professional experience transforming raw photographs into polished, client-ready visuals across weddings, portraits, products and restoration.</p>
+            </div>
+            <div class="kv-timeline__item">
+              <span class="kv-timeline__dot"></span>
+              <span class="kv-timeline__year">Web Development — 3+ Years</span>
+              <h4>Responsive, modern &amp; conversion-focused</h4>
+              <p>Experience building responsive, modern websites and stores in HTML, WordPress, Elementor, Wix and Shopify that look premium and perform.</p>
+            </div>
+            <div class="kv-timeline__item">
+              <span class="kv-timeline__dot"></span>
+              <span class="kv-timeline__year">Today</span>
+              <h4>One studio, two crafts</h4>
+              <p>Kulver &amp; Preeti brings both disciplines together so your images and your website share a single, consistent premium identity.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== WHY CHOOSE US ===================== -->
+    <section class="kv-section kv-section--tight" style="background:var(--kv-surface);">
+      <div class="kv-container">
+        <div class="kv-section-head kv-section-head--center" data-reveal>
+          <span class="kv-eyebrow">Why Clients Choose Us</span>
+          <h2 class="kv-heading-lg">The details others overlook</h2>
+        </div>
+        <div class="kv-why-grid">
+          <div class="kv-why-card" data-reveal><div class="kv-why-card__icon"><i class="bi bi-award"></i></div><h4>Professional Quality</h4><p>Consistent, high-end output on every single deliverable.</p></div>
+          <div class="kv-why-card" data-reveal data-reveal-delay="1"><div class="kv-why-card__icon"><i class="bi bi-palette"></i></div><h4>Creative Approach</h4><p>A distinctive eye that goes beyond templates and presets.</p></div>
+          <div class="kv-why-card" data-reveal data-reveal-delay="2"><div class="kv-why-card__icon"><i class="bi bi-lightning-charge"></i></div><h4>Fast Turnaround</h4><p>Reliable delivery timelines that respect your deadlines.</p></div>
+          <div class="kv-why-card" data-reveal data-reveal-delay="3"><div class="kv-why-card__icon"><i class="bi bi-search"></i></div><h4>Attention to Detail</h4><p>Meticulous work down to the last pixel and edge.</p></div>
+          <div class="kv-why-card" data-reveal><div class="kv-why-card__icon"><i class="bi bi-cpu"></i></div><h4>Modern Technology</h4><p>Current tools and clean, future-proof code.</p></div>
+          <div class="kv-why-card" data-reveal data-reveal-delay="1"><div class="kv-why-card__icon"><i class="bi bi-phone"></i></div><h4>Fully Responsive</h4><p>Websites that look flawless on every screen size.</p></div>
+          <div class="kv-why-card" data-reveal data-reveal-delay="2"><div class="kv-why-card__icon"><i class="bi bi-people"></i></div><h4>Client-Focused</h4><p>A collaborative process built around your goals.</p></div>
+          <div class="kv-why-card" data-reveal data-reveal-delay="3"><div class="kv-why-card__icon"><i class="bi bi-chat-dots"></i></div><h4>Reliable Communication</h4><p>Clear, responsive updates from brief to delivery.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== PROCESS ===================== -->
+    <section class="kv-section">
+      <div class="kv-container">
+        <div class="kv-section-head kv-section-head--center" data-reveal>
+          <span class="kv-eyebrow">How We Work</span>
+          <h2 class="kv-heading-lg">A simple, five-step creative process</h2>
+        </div>
+        <div class="kv-process">
+          <div class="kv-process__step" data-reveal><span class="kv-process__num">01</span><h4>Share Your Vision</h4><p>You provide images, requirements or a website idea.</p></div>
+          <div class="kv-process__step" data-reveal data-reveal-delay="1"><span class="kv-process__num">02</span><h4>Creative Direction</h4><p>We shape a clear visual direction for the work.</p></div>
+          <div class="kv-process__step" data-reveal data-reveal-delay="2"><span class="kv-process__num">03</span><h4>Editing / Development</h4><p>Our team crafts the photos or builds the website.</p></div>
+          <div class="kv-process__step" data-reveal data-reveal-delay="3"><span class="kv-process__num">04</span><h4>Review</h4><p>You review, and we refine until it's right.</p></div>
+          <div class="kv-process__step" data-reveal data-reveal-delay="4"><span class="kv-process__num">05</span><h4>Final Delivery</h4><p>Your polished, high-quality project is delivered.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== FEATURED PROJECTS ===================== -->
+    <section class="kv-section kv-section--tight" id="work">
+      <div class="kv-container">
+        <div class="kv-section-head" data-reveal>
+          <span class="kv-eyebrow">Featured Work</span>
+          <h2 class="kv-heading-lg">Photo editing projects</h2>
+          <p class="kv-lead">A glimpse of recent retouching, wedding, portrait and creative work. Tap any image to view it larger.</p>
+        </div>
+        <div class="kv-gallery">
+          <div class="kv-tile kv-card-tall" data-reveal data-lightbox="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1000&q=85" data-caption="Wedding — Golden Hour Editing">
+            <img class="kv-tile__img" src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=700&q=80" alt="Wedding photo editing project" loading="lazy" />
+            <span class="kv-tile__badge">Wedding</span>
+            <div class="kv-tile__overlay"><span class="kv-tile__cat">Wedding</span><span class="kv-tile__title">Golden Hour</span><span class="kv-tile__view">View Project <i class="bi bi-arrow-up-right"></i></span></div>
+          </div>
+          <div class="kv-tile" data-reveal data-reveal-delay="1" data-lightbox="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=1000&q=85" data-caption="Portrait — Natural Skin Retouch">
+            <img class="kv-tile__img" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=600&q=80" alt="Portrait retouching project" loading="lazy" />
+            <span class="kv-tile__badge">Portrait</span>
+            <div class="kv-tile__overlay"><span class="kv-tile__cat">Portrait</span><span class="kv-tile__title">Studio Light</span><span class="kv-tile__view">View Project <i class="bi bi-arrow-up-right"></i></span></div>
+          </div>
+          <div class="kv-tile" data-reveal data-reveal-delay="2" data-lightbox="https://images.unsplash.com/photo-1549060279-7e168fcee0c2?auto=format&fit=crop&w=1000&q=85" data-caption="Product — E-commerce Editing">
+            <img class="kv-tile__img" src="https://images.unsplash.com/photo-1549060279-7e168fcee0c2?auto=format&fit=crop&w=600&q=80" alt="Product photo editing project" loading="lazy" />
+            <span class="kv-tile__badge">Product</span>
+            <div class="kv-tile__overlay"><span class="kv-tile__cat">Product</span><span class="kv-tile__title">Clean Catalog</span><span class="kv-tile__view">View Project <i class="bi bi-arrow-up-right"></i></span></div>
+          </div>
+          <div class="kv-tile" data-reveal data-lightbox="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?auto=format&fit=crop&w=1000&q=85" data-caption="Birthday — Celebration Editing">
+            <img class="kv-tile__img" src="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?auto=format&fit=crop&w=600&q=80" alt="Birthday photo editing project" loading="lazy" />
+            <span class="kv-tile__badge">Birthday</span>
+            <div class="kv-tile__overlay"><span class="kv-tile__cat">Birthday</span><span class="kv-tile__title">Confetti Pop</span><span class="kv-tile__view">View Project <i class="bi bi-arrow-up-right"></i></span></div>
+          </div>
+          <div class="kv-tile kv-card-tall" data-reveal data-reveal-delay="1" data-lightbox="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1000&q=85" data-caption="Fashion — Editorial Retouch">
+            <img class="kv-tile__img" src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=700&q=80" alt="Fashion editing project" loading="lazy" />
+            <span class="kv-tile__badge">Fashion</span>
+            <div class="kv-tile__overlay"><span class="kv-tile__cat">Fashion</span><span class="kv-tile__title">Editorial</span><span class="kv-tile__view">View Project <i class="bi bi-arrow-up-right"></i></span></div>
+          </div>
+          <div class="kv-tile" data-reveal data-reveal-delay="2" data-lightbox="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=1000&q=85" data-caption="Restoration — Old Photo Revival">
+            <img class="kv-tile__img" src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=600&q=80" alt="Old photo restoration project" loading="lazy" />
+            <span class="kv-tile__badge">Restoration</span>
+            <div class="kv-tile__overlay"><span class="kv-tile__cat">Restoration</span><span class="kv-tile__title">Revival</span><span class="kv-tile__view">View Project <i class="bi bi-arrow-up-right"></i></span></div>
+          </div>
+        </div>
+        <div class="text-center mt-5" data-reveal>
+          <a href="projects" class="kv-btn kv-btn--ghost" data-magnetic>View Full Portfolio <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== WEBSITE PROJECTS ===================== -->
+    <section class="kv-section" style="background:var(--kv-surface);">
+      <div class="kv-container">
+        <div class="kv-section-head" data-reveal>
+          <span class="kv-eyebrow">Website Projects</span>
+          <h2 class="kv-heading-lg">Modern sites &amp; storefronts we've built</h2>
+        </div>
+        <div class="kv-mockup-grid">
+          <article class="kv-mockup" data-reveal>
+            <div class="kv-browser">
+              <div class="kv-browser__bar"><span class="kv-browser__dot"></span><span class="kv-browser__dot"></span><span class="kv-browser__dot"></span><span class="kv-browser__url">luxe-studio.com</span></div>
+              <div class="kv-mockup__shot"><img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?auto=format&fit=crop&w=700&q=80" alt="Business website mockup" loading="lazy" /></div>
+            </div>
+            <div class="kv-mockup__body"><span class="kv-mockup__tech">HTML · Bootstrap</span><h3>Business Website</h3><a href="projects">View Project <i class="bi bi-arrow-up-right"></i></a></div>
+          </article>
+          <article class="kv-mockup" data-reveal data-reveal-delay="1">
+            <div class="kv-browser">
+              <div class="kv-browser__bar"><span class="kv-browser__dot"></span><span class="kv-browser__dot"></span><span class="kv-browser__dot"></span><span class="kv-browser__url">bloom-events.com</span></div>
+              <div class="kv-mockup__shot"><img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=700&q=80" alt="WordPress website mockup" loading="lazy" /></div>
+            </div>
+            <div class="kv-mockup__body"><span class="kv-mockup__tech">WordPress · Elementor</span><h3>Event Studio Site</h3><a href="projects">View Project <i class="bi bi-arrow-up-right"></i></a></div>
+          </article>
+          <article class="kv-mockup" data-reveal data-reveal-delay="2">
+            <div class="kv-browser">
+              <div class="kv-browser__bar"><span class="kv-browser__dot"></span><span class="kv-browser__dot"></span><span class="kv-browser__dot"></span><span class="kv-browser__url">nordic-goods.shop</span></div>
+              <div class="kv-mockup__shot"><img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=700&q=80" alt="Shopify store mockup" loading="lazy" /></div>
+            </div>
+            <div class="kv-mockup__body"><span class="kv-mockup__tech">Shopify Store</span><h3>E-commerce Store</h3><a href="projects">View Project <i class="bi bi-arrow-up-right"></i></a></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== BEFORE & AFTER GALLERY ===================== -->
+    <section class="kv-section">
+      <div class="kv-container">
+        <div class="kv-section-head kv-section-head--center" data-reveal>
+          <span class="kv-eyebrow">See The Difference</span>
+          <h2 class="kv-heading-lg">Drag to reveal the transformation</h2>
+          <p class="kv-lead" style="margin-inline:auto;">Every slider below is a real before-and-after. Drag the gold handle to compare.</p>
+        </div>
+        <div class="kv-ba-grid">
+          <div class="kv-ba-item" data-reveal>
+            <div class="kv-compare" role="group" aria-label="Portrait enhancement before and after">
+              <img class="kv-compare__img kv-compare__fx-before" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=700&q=80" alt="Portrait before enhancement" loading="lazy" />
+              <img class="kv-compare__img kv-compare__after" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=700&q=85" alt="Portrait after enhancement" loading="lazy" />
+              <span class="kv-compare__label kv-compare__label--before">Before</span>
+              <span class="kv-compare__label kv-compare__label--after">After</span>
+              <span class="kv-compare__divider"></span>
+              <button class="kv-compare__handle kv-compare__handle--sm" aria-label="Drag to compare"><i class="bi bi-arrows"></i></button>
+              <input class="kv-compare__range" type="range" min="0" max="100" value="50" aria-label="Slider position" />
+            </div>
+            <div class="kv-ba-item__caption"><h4>Portrait Enhancement</h4><p>Skin, tone and light refined.</p></div>
+          </div>
+          <div class="kv-ba-item" data-reveal data-reveal-delay="1">
+            <div class="kv-compare" role="group" aria-label="Wedding editing before and after">
+              <img class="kv-compare__img kv-compare__fx-before" src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=700&q=80" alt="Wedding photo before editing" loading="lazy" />
+              <img class="kv-compare__img kv-compare__after" src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=700&q=85" alt="Wedding photo after editing" loading="lazy" />
+              <span class="kv-compare__label kv-compare__label--before">Before</span>
+              <span class="kv-compare__label kv-compare__label--after">After</span>
+              <span class="kv-compare__divider"></span>
+              <button class="kv-compare__handle kv-compare__handle--sm" aria-label="Drag to compare"><i class="bi bi-arrows"></i></button>
+              <input class="kv-compare__range" type="range" min="0" max="100" value="50" aria-label="Slider position" />
+            </div>
+            <div class="kv-ba-item__caption"><h4>Wedding Color Grade</h4><p>Warm, cinematic finishing.</p></div>
+          </div>
+          <div class="kv-ba-item" data-reveal data-reveal-delay="2">
+            <div class="kv-compare" role="group" aria-label="Product editing before and after">
+              <img class="kv-compare__img kv-compare__fx-before" src="https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=crop&w=700&q=80" alt="Product photo before editing" loading="lazy" />
+              <img class="kv-compare__img kv-compare__after" src="https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=crop&w=700&q=85" alt="Product photo after editing" loading="lazy" />
+              <span class="kv-compare__label kv-compare__label--before">Before</span>
+              <span class="kv-compare__label kv-compare__label--after">After</span>
+              <span class="kv-compare__divider"></span>
+              <button class="kv-compare__handle kv-compare__handle--sm" aria-label="Drag to compare"><i class="bi bi-arrows"></i></button>
+              <input class="kv-compare__range" type="range" min="0" max="100" value="50" aria-label="Slider position" />
+            </div>
+            <div class="kv-ba-item__caption"><h4>Product Retouch</h4><p>Clean, market-ready shots.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== ABOUT PREVIEW ===================== -->
+    <section class="kv-section kv-section--tight" style="background:var(--kv-surface);">
+      <div class="kv-container">
+        <div class="kv-about-preview">
+          <div class="kv-about-preview__media" data-reveal="left">
+            <div class="kv-about-preview__img" data-parallax-y="0.3">
+              <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=800&q=80" alt="Creative editing and development workstation" loading="lazy" />
+            </div>
+            <div class="kv-about-preview__badge"><strong>8+</strong><span>Years Combined Craft</span></div>
+          </div>
+          <div data-reveal="right">
+            <span class="kv-eyebrow">About The Studio</span>
+            <h2 class="kv-heading-lg">Creativity is in the details.</h2>
+            <p class="kv-lead">Kulver &amp; Preeti combines years of professional photo editing experience with modern website development — one studio that makes both your visuals and your digital presence feel premium and cohesive.</p>
+            <div class="kv-about-mini">
+              <div><div class="kv-about-mini__num">5+</div><div class="kv-about-mini__label">Years Photo Editing</div></div>
+              <div><div class="kv-about-mini__num">3+</div><div class="kv-about-mini__label">Years Web Development</div></div>
+            </div>
+            <a href="about" class="kv-btn kv-btn--gold" data-magnetic>More About Us <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== TESTIMONIALS ===================== -->
+    <section class="kv-section">
+      <div class="kv-container">
+        <div class="kv-section-head kv-section-head--center" data-reveal>
+          <span class="kv-eyebrow">Kind Words</span>
+          <h2 class="kv-heading-lg">Clients who trusted the process</h2>
+        </div>
+        <div class="kv-testimonials" data-reveal>
+          <div class="kv-testi-track">
+            <article class="kv-testi-card">
+              <div class="kv-testi-card__stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+              <p class="kv-testi-card__quote">"Our wedding gallery came back looking like a film. The color and skin work were unreal — worth every rupee."</p>
+              <div class="kv-testi-card__client"><img class="kv-testi-card__avatar" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=100&q=80" alt="Aditi R." loading="lazy" /><div><div class="kv-testi-card__name">Aditi R.</div><div class="kv-testi-card__role">Wedding Editing</div></div></div>
+            </article>
+            <article class="kv-testi-card">
+              <div class="kv-testi-card__stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+              <p class="kv-testi-card__quote">"They rebuilt our Shopify store from scratch. Faster, cleaner, and sales went up in the first month."</p>
+              <div class="kv-testi-card__client"><img class="kv-testi-card__avatar" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=100&q=80" alt="Marcus L." loading="lazy" /><div><div class="kv-testi-card__name">Marcus L.</div><div class="kv-testi-card__role">Shopify Store</div></div></div>
+            </article>
+            <article class="kv-testi-card">
+              <div class="kv-testi-card__stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+              <p class="kv-testi-card__quote">"My product catalog looks premium now. Consistent, clean, and delivered ahead of schedule."</p>
+              <div class="kv-testi-card__client"><img class="kv-testi-card__avatar" src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=100&q=80" alt="Priya S." loading="lazy" /><div><div class="kv-testi-card__name">Priya S.</div><div class="kv-testi-card__role">Product Editing</div></div></div>
+            </article>
+            <article class="kv-testi-card">
+              <div class="kv-testi-card__stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+              <p class="kv-testi-card__quote">"Restored my grandfather's old photos beautifully. My whole family was moved. Thank you."</p>
+              <div class="kv-testi-card__client"><img class="kv-testi-card__avatar" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=100&q=80" alt="Rohan M." loading="lazy" /><div><div class="kv-testi-card__name">Rohan M.</div><div class="kv-testi-card__role">Photo Restoration</div></div></div>
+            </article>
+            <article class="kv-testi-card">
+              <div class="kv-testi-card__stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+              <p class="kv-testi-card__quote">"Professional, responsive and genuinely creative. Our new business website finally feels like us."</p>
+              <div class="kv-testi-card__client"><img class="kv-testi-card__avatar" src="https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=100&q=80" alt="Elena K." loading="lazy" /><div><div class="kv-testi-card__name">Elena K.</div><div class="kv-testi-card__role">Business Website</div></div></div>
+            </article>
+          </div>
+          <div class="kv-testi-nav">
+            <button class="kv-testi-btn" data-testi-prev aria-label="Previous testimonial"><i class="bi bi-arrow-left"></i></button>
+            <button class="kv-testi-btn" data-testi-next aria-label="Next testimonial"><i class="bi bi-arrow-right"></i></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CTA ===================== -->
+    <section class="kv-section kv-cta">
+      <div class="kv-container">
+        <div class="kv-cta__panel" data-reveal="scale">
+          <span class="kv-cta__glow"></span>
+          <span class="kv-eyebrow" style="justify-content:center;">Let's Create</span>
+          <h2>Have a moment worth perfecting?</h2>
+          <p>Whether it's a wedding memory, birthday celebration, portrait, product image, or a complete website — let's turn your idea into something remarkable.</p>
+          <div class="kv-cta__actions">
+            <a href="contact" class="kv-btn kv-btn--gold" data-magnetic>Start Your Project <i class="bi bi-arrow-right"></i></a>
+            <a href="projects" class="kv-btn kv-btn--ghost" data-magnetic>View Our Work</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="kv-footer">
+    <span class="kv-footer__topline"></span>
+    <div class="kv-container">
+      <div class="kv-footer__grid">
+        <div class="kv-footer__about">
+          <a href="./" class="kv-logo">
+            <svg class="kv-logo__mark" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <circle cx="24" cy="24" r="21" stroke="#c9a227" stroke-width="1.4" />
+              <polygon points="24,9 37,16.5 37,31.5 24,39 11,31.5 11,16.5" stroke="#c9a227" stroke-width="1" fill="none" opacity="0.4" />
+              <text x="24" y="29.5" text-anchor="middle" font-family="'Playfair Display', serif" font-size="15" font-weight="600" fill="#f5f5f5">KV</text>
+            </svg>
+            <span class="kv-logo__text"><span class="kv-logo__name">K &amp; V</span><span class="kv-logo__sub">Creative Studio</span></span>
+          </a>
+          <p>We transform ordinary photos into extraordinary visuals and build modern digital experiences.</p>
+          <div class="kv-footer__social">
+            <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            <a href="tel:+919058656557" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+          </div>
+        </div>
+        <div class="kv-footer__col">
+          <h5>Navigation</h5>
+          <ul><li><a href="./">Home</a></li><li><a href="about">About</a></li><li><a href="projects">Projects</a></li><li><a href="contact">Contact</a></li></ul>
+        </div>
+        <div class="kv-footer__col">
+          <h5>Services</h5>
+          <ul><li><a href="contact">Photo Editing</a></li><li><a href="contact">Website Development</a></li><li><a href="contact">WordPress</a></li><li><a href="contact">Elementor</a></li><li><a href="contact">Wix</a></li><li><a href="contact">Shopify</a></li></ul>
+        </div>
+        <div class="kv-footer__col">
+          <h5>Contact</h5>
+          <ul class="kv-footer__contact">
+            <li><i class="bi bi-envelope"></i> <a href="mailto:kvikrant543@gmail.com">kvikrant543@gmail.com</a></li>
+            <li><i class="bi bi-whatsapp"></i> <a href="tel:+9058656557">+91 9058656557</a></li>
+            <li><i class="bi bi-geo-alt"></i> Bijnor, Uttar Pradesh, India</li>
+          </ul>
+        </div>
+      </div>
+      <div class="kv-footer__bottom">
+        <p>© <span id="kvYear">2026</span> K &amp; V Creative Studio. All rights reserved.</p>
+        <p><a href="#top">Back to top ↑</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <button class="kv-top" aria-label="Back to top"><i class="bi bi-arrow-up"></i></button>
+
+  <!-- Lightbox -->
+  <div class="kv-lightbox" role="dialog" aria-modal="true" aria-label="Image preview">
+    <button class="kv-lightbox__close" aria-label="Close preview"><i class="bi bi-x-lg"></i></button>
+    <img class="kv-lightbox__img" src="" alt="Project preview" />
+    <div class="kv-lightbox__caption"></div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
