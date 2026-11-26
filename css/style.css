@@ -769,6 +769,7 @@ p { margin: 0 0 1rem; color: var(--kv-muted); }
    About preview / parallax image block
    ========================================================================== */
 .kv-about-preview { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: center; }
+.kv-about-preview > * { min-width: 0; }
 .kv-about-preview__media { position: relative; }
 .kv-about-preview__img {
   border-radius: var(--kv-radius); overflow: hidden;
@@ -776,7 +777,7 @@ p { margin: 0 0 1rem; color: var(--kv-muted); }
 }
 .kv-about-preview__img img { width: 100%; aspect-ratio: 4/5; object-fit: cover; }
 .kv-about-preview__badge {
-  position: absolute; bottom: -24px; right: -24px;
+  position: absolute; bottom: 16px; right: 16px;
   padding: 22px 26px; border-radius: 16px;
   background: var(--kv-gold-grad); color: #0a0a0a;
   box-shadow: var(--kv-shadow-gold);
@@ -1035,6 +1036,7 @@ p { margin: 0 0 1rem; color: var(--kv-muted); }
   .kv-hero__visual { max-width: 460px; margin-inline: auto; width: 100%; }
   .kv-experience, .kv-about-preview, .kv-about-mini + *, .kv-story, .kv-contact-grid { gap: 44px; }
   .kv-experience, .kv-about-preview, .kv-story { grid-template-columns: 1fr; }
+  .kv-about-preview__img img { aspect-ratio: 16/10; }
   .kv-service-grid, .kv-mockup-grid, .kv-ba-grid, .kv-gallery, .kv-values-grid { grid-template-columns: repeat(2, 1fr); }
   .kv-why-grid { grid-template-columns: repeat(2, 1fr); }
   .kv-process { grid-template-columns: repeat(3, 1fr); }
@@ -1063,7 +1065,7 @@ p { margin: 0 0 1rem; color: var(--kv-muted); }
   .kv-hero__cta .kv-btn { justify-content: center; }
   .kv-footer__grid { grid-template-columns: 1fr; }
   .kv-float--1, .kv-float--2 { display: none; }
-  .kv-about-preview__badge { right: 12px; bottom: -18px; padding: 16px 20px; }
+  .kv-about-preview__badge { right: 12px; bottom: 12px; padding: 16px 20px; }
   .kv-form { padding: 26px 22px; }
 }
 
